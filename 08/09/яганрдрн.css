@@ -54,7 +54,7 @@ button {
 
 .nav {
     display: flex;
-    gap: 82px;
+    gap: 2px;
     font-size: 13px;
     color: #aaa69e;
 }
@@ -78,73 +78,7 @@ button {
    HERO
 ========================= */
 
-.hero {
-    min-height: 720px;
-    display: grid;
-    grid-template-columns: 48% 52%;
-}
 
-.hero-content {
-    padding: 150px 12%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.small-title {
-    font-size: 10px;
-    letter-spacing: 4px;
-    color: #9c958a;
-    margin-bottom: 24px;
-}
-
-.hero h1 {
-    font-family: "Cormorant Garamond", serif;
-    font-size: clamp(60px, 6vw, 92px);
-    font-weight: 400;
-    line-height: 0.9;
-    margin-bottom: 35px;
-}
-
-.hero h1 i,
-.about h2 i,
-.collection h2 i {
-    font-weight: 400;
-}
-
-.hero-text {
-    max-width: 380px;
-    color: #aaa69e;
-    line-height: 1.8;
-    font-size: 14px;
-    margin-bottom: 40px;
-}
-
-.hero-button {
-    width: fit-content;
-    padding: 16px 30px;
-    border: 1px solid #777269;
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-
-.hero-button:hover {
-    background: #eeeae2;
-    color: #11110f;
-}
-
-.hero-image {
-    height: 720px;
-    overflow: hidden;
-}
-
-.hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 
 /* =========================
