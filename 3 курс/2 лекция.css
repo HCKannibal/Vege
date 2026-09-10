@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Верхняя серая область */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #d9d9d9;
+}
+
+
+/* Основная область */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+    width: 82%;
+    margin: 35px auto 0;
+
+    gap: 60px;
+}
+
+
+/* Колонки */
+
+.left-column,
+.right-column {
+    width: 50%;
+}
+
+
+/* Текстовые полоски */
+
+.text-block {
+    width: 100%;
+}
+
+.line {
+    height: 9px;
+    background: #808080;
+    border-radius: 2px;
+}
+
+
+/* Верхний текст слева */
+
+.text-block > .line:first-child {
+    width: 72%;
+    margin-bottom: 26px;
+}
+
+.text-block > .line:nth-child(2) {
+    width: 20%;
+    margin-left: 74%;
+    margin-top: -35px;
+    margin-bottom: 27px;
+}
+
+
+/* Строки */
+
+.line-row {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 27px;
+}
+
+
+/* Размеры линий */
+
+.tiny {
+    width: 15%;
+}
+
+.short {
+    width: 18%;
+}
+
+.medium {
+    width: 28%;
+}
+
+.long {
+    width: 48%;
+}
+
+.very-long {
+    width: 70%;
+}
+
+
+/* Левая картинка */
+
+.image-left {
+    width: 78%;
+    height: 215px;
+
+    background: #d9d9d9;
+
+    margin-top: 57px;
+    margin-left: 1%;
+}
+
+
+/* Правая картинка */
+
+.image-right {
+    width: 95%;
+    height: 283px;
+
+    background: #d9d9d9;
+
+    margin-left: auto;
+}
+
+
+/* Текст справа */
+
+.right-text {
+    margin-top: 50px;
+}
+
+.right-text > .line:first-child {
+    width: 86%;
+    margin-left: auto;
+    margin-bottom: 27px;
+}
+
+
+/* Адаптивность */
+
+@media (max-width: 700px) {
+
+    .content {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+
+    .image-left,
+    .image-right {
+        width: 100%;
+    }
+
+    .right-column {
+        margin-top: 40px;
+    }
+}
