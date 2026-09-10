@@ -1,0 +1,314 @@
+@import url('https://fonts-online.ru/fonts/christmas-reign-deco-personal https://fonts-online.ru/fonts/bickham-script-one');
+@import url('https://fonts-online.ru/fonts/bickham-script-one');
+@import url('https://fonts-online.ru/fonts/montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Christmas Reign PERSONAL", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header.container {
+    text-transform: uppercase;
+    font-size: 48px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px 0px;
+    color: #ffffff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {color: #ffffff;}
+
+.hero {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.hero--info {
+    width: 1200px;
+}
+
+.hero--info h1 {
+    font-family: Bickham Script One;
+    font-size: 128px;
+    color: #483B2B;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.hero--info h2 {
+    font-family: Bickham Script One;
+    font-size: 96px;
+    color: #483B2B;
+    font-weight: lighter;
+    float: right;   
+    margin-top: -60px;
+}
+
+.hero img {
+margin-top: -50px;
+}
+
+/*Секция с продажами*/
+
+.trending {
+    position: relative;
+    min-height: 1200px;
+    background-color: #121212;
+    overflow: hidden;
+    padding: 80px;
+}
+
+.trending-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.trending-header h2 {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.trending-header a {
+    color: white;
+    background-color: #585858;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 30px;
+    padding: 10px 60px;
+}
+
+.trending-header a:hover{
+    cursor: pointer;
+    background-color: #3e3e3e;
+}
+
+.circle {
+    position: absolute;
+    width: 1400px;
+    height: 1400px;
+
+    background: white;
+
+    border-radius: 50%;
+
+    left: 50%;
+    top: 100px;
+
+    transform: translateX(-50%);
+
+    z-index: 1;
+}
+
+.album-card {
+    position: relative;
+
+    z-index: 2;
+
+    text-align: center;
+
+    margin-top: 200px;
+}
+
+.album-card img {
+    width: 400px;
+    bottom: 400px;
+    position: relative;
+    z-index: 3;
+}
+
+.album-card h3 {
+    color: black;
+    font-size: 32px;
+    position: relative;
+    z-index: 3;
+    bottom: 370px;
+}
+
+.add-to-cart {
+    padding: 15px 30px;
+
+    border: none;
+
+    background: black;
+
+    color: white;
+
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    bottom: 350px;
+}
+
+.left-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+/*Local*/
+
+.local {
+    background-color: #121212;
+    height: 800px;
+}
+
+.local h1 {
+    font-size: 48px;
+    color: #fff;
+    position: relative;
+   float: right;
+   padding-right: 120px;
+   font-weight: 400;
+}
+
+.local img {
+    padding: 120px;
+    margin-bottom: 200px;
+}
+
+.local h2 {
+    font-size: 64px;
+    font-family: Bickham Script One;
+    color: #fff;
+    font-weight: 400;
+    margin-top: -920px;
+    padding-right: 245px;
+    float: right;
+}
+
+.local h3 {
+    font-family: montserrat;
+    color: #fff;
+    font-size:15px ;
+    font-weight: 400;
+    margin-top: -770px;
+    float: right;
+    padding-right: 190px;
+}
+
+.button a {
+      color: white;
+    background-color: #585858;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 30px;
+    padding: 10px 60px;
+    float: right;
+    margin-right: 444px;
+    margin-top: -570px;
+
+}
+.button a:hover{
+    cursor: pointer;
+    background-color: #3e3e3e;
+}
+
+/*Футер*/
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer h2 {
+    font-family: "Christmas Reign PERSONAL";
+    font-size: 48px;
+    font-weight: 400;
+}
+.footer h3 {
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer li,
+.footer a {
+    color: #ccc;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: #999;
+}
