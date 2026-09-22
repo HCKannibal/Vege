@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SPORTIX — магазин спортивного инвентаря</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SPORT<span>IX</span></div>
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="cart">
+        🛒 <span id="cart-count">0</span>
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="subtitle">МАГАЗИН СПОРТИВНОГО ИНВЕНТАРЯ</p>
+
+            <h1>
+                ТВОЙ СПОРТ.<br>
+                ТВОЯ СИЛА.
+            </h1>
+
+            <p class="description">
+                Всё необходимое для тренировок дома и в зале.
+                Качественный инвентарь для тех, кто хочет становиться лучше.
+            </p>
+
+            <a href="#catalog" class="hero-button">
+                Смотреть каталог
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <div class="circle"></div>
+            <div class="sport-icon">🏋️</div>
+        </div>
+
+    </section>
+
+
+    <!-- Категории -->
+    <section class="categories">
+
+        <h2>Категории</h2>
+
+        <div class="category-grid">
+
+            <div class="category">
+                <div class="category-icon">🏋️</div>
+                <h3>Силовые тренировки</h3>
+                <p>Гантели, гири и штанги</p>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">🧘</div>
+                <h3>Фитнес</h3>
+                <p>Коврики, резинки и ролики</p>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">⚽</div>
+                <h3>Командный спорт</h3>
+                <p>Мячи и аксессуары</p>
+            </div>
+
+            <div class="category">
+                <div class="category-icon">🏃</div>
+                <h3>Кардио</h3>
+                <p>Скакалки и тренажёры</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Каталог -->
+    <section class="catalog" id="catalog">
+
+        <div class="section-title">
+            <div>
+                <p class="subtitle">ПОПУЛЯРНЫЕ ТОВАРЫ</p>
+                <h2>Наш каталог</h2>
+            </div>
+
+            <button class="filter-button">Все товары</button>
+        </div>
+
+
+        <div class="products">
+
+            <div class="product">
+
+                <div class="product-image">
+                    🏋️
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Силовой инвентарь</p>
+
+                    <h3>Гантели 10 кг</h3>
+
+                    <div class="product-bottom">
+                        <strong>18 990 ₸</strong>
+
+                        <button
+                            class="add-button"
+                            data-name="Гантели 10 кг"
+                            data-price="18990">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="product">
+
+                <div class="product-image">
+                    🧘
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Фитнес</p>
+
+                    <h3>Фитнес-коврик</h3>
+
+                    <div class="product-bottom">
+                        <strong>9 990 ₸</strong>
+
+                        <button
+                            class="add-button"
+                            data-name="Фитнес-коврик"
+                            data-price="9990">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="product">
+
+                <div class="product-image">
+                    🪢
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Кардио</p>
+
+                    <h3>Скакалка Pro</h3>
+
+                    <div class="product-bottom">
+                        <strong>4 990 ₸</strong>
+
+                        <button
+                            class="add-button"
+                            data-name="Скакалка Pro"
+                            data-price="4990">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="product">
+
+                <div class="product-image">
+                    ⚽
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Командный спорт</p>
+
+                    <h3>Футбольный мяч</h3>
+
+                    <div class="product-bottom">
+                        <strong>12 990 ₸</strong>
+
+                        <button
+                            class="add-button"
+                            data-name="Футбольный мяч"
+                            data-price="12990">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- О магазине -->
+    <section class="about" id="about">
+
+        <div class="about-number">
+            01
+        </div>
+
+        <div class="about-text">
+
+            <p class="subtitle">ПОЧЕМУ SPORTIX?</p>
+
+            <h2>
+                Всё для движения
+                и больших целей.
+            </h2>
+
+            <p>
+                SPORTIX — магазин спортивного инвентаря для начинающих
+                и профессиональных спортсменов.
+            </p>
+
+            <p>
+                Мы подбираем качественное оборудование для тренировок
+                дома, в спортивном зале и на открытом воздухе.
+            </p>
+
+            <div class="advantages">
+
+                <div>
+                    <strong>500+</strong>
+                    <span>товаров</span>
+                </div>
+
+                <div>
+                    <strong>24/7</strong>
+                    <span>заказ онлайн</span>
+                </div>
+
+                <div>
+                    <strong>3 года</strong>
+                    <span>на рынке</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Контакты -->
+    <section class="contact" id="contacts">
+
+        <div>
+            <p class="subtitle">ОСТАЛИСЬ ВОПРОСЫ?</p>
+
+            <h2>Начни тренировку<br>уже сегодня.</h2>
+        </div>
+
+        <div class="contact-info">
+            <p>📍 Алматы, Казахстан</p>
+            <p>📞 +7 (700) 123-45-67</p>
+            <p>✉️ hello@sportix.kz</p>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="logo">SPORT<span>IX</span></div>
+
+    <p>© 2026 SPORTIX. Все права защищены.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
