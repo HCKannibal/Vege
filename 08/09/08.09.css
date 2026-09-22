@@ -4,7 +4,7 @@
 
 * {
     margin: 0;
-    padding: 30px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background: #11110f;
+    background: #4d4d49;
     color: #eeeae2;
     font-family: "Inter", sans-serif;
 }
