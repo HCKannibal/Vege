@@ -35,6 +35,10 @@ button {
    HEADER
 ========================= */
 
+section {
+    padding: 20px;
+} 
+
 .header {
     height: 82px;
     padding: 0 6%;
