@@ -1,3 +1,7 @@
-node_modules/
-.env
-*.log
+*.log 
+!important.log 
+*.tmp 
+.env 
+.DS_Store 
+Thumbs.db 
+node_modules/ 
