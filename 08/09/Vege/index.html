@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VEGE — журнал об овощах</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap">
+  <div class="top"><span>Осень 2026</span><span>Журнал о том, что растёт под землёй и над ней</span><span>Выпуск седьмой</span></div>
+  <h1 class="mast">VEGE</h1>
+  <nav><a href="#season">Сезон</a><a href="#essay">Эссе</a><a href="#kitchen">Кухня</a><a href="#sub">Подписка</a></nav>
+</header>
+
+<main>
+<section class="wrap cover">
+  <div>
+    <h1>Капуста вернулась <em>за главный стол</em></h1>
+    <p class="deck">Как самый скромный овощ стал героем лучших ресторанов Европы и почему его стоит готовить дольше, чем вы привыкли.</p>
+    <p class="by">Текст — Анна Левина, фотографии — Матвей Росс</p>
+    <a class="read" href="#essay">Читать выпуск</a>
+  </div>
+  <div class="art" role="img" aria-label="Срез капусты с концентрическими кольцами">
+    <span class="leaf"></span><span class="leaf b"></span>
+    <div class="slice"></div>
+    <span class="cap">Срез савойской капусты, крупный план</span>
+  </div>
+</section>
+
+<section class="wrap season" id="season">
+  <div class="head"><h2>Сейчас в сезоне</h2><p>Четыре овоща, которые в октябре вкуснее всего. Берите у фермеров, а не в сетях.</p></div>
+  <div class="tiles">
+    <article class="tile"><div class="dot t1"></div><h3>Брокколи</h3><p>Плотные соцветия и сладкие стебли. Обжарьте на сильном огне до румяных краёв.</p></article>
+    <article class="tile"><div class="dot t2"></div><h3>Огурец</h3><p>Хрустящий и прохладный. Тонкие ломтики с солью и лимоном.</p></article>
+    <article class="tile"><div class="dot t3"></div><h3>Цуккини</h3><p>Молодые плоды нежнее. Гриль, лента или тонкая паста.</p></article>
+    <article class="tile"><div class="dot t4"></div><h3>Шпинат</h3><p>Листья молодые и сладкие. Добавьте в самом конце готовки.</p></article>
+  </div>
+</section>
+
+<section class="feature" id="essay">
+  <div class="wrap">
+    <blockquote class="quote">«Овощ — это не гарнир. Это сюжет.»<small>Шеф-повар Ирина Корн о новой кухне земли</small></blockquote>
+    <div class="cols">
+      <p>Ещё десять лет назад овощи в меню высокой кухни занимали скромную строчку в конце страницы. Сегодня лучшие рестораны начинают с них. Шефы ферментируют капусту неделями, обжигают брокколи на углях и коптят цуккини на яблоневой щепе.</p>
+      <p>Секрет не в сложных техниках, а во времени. Капуста, запечённая три часа при низкой температуре, превращается в нечто совсем иное: плотное, глубокое, почти мясное. Он не прячется за соусом. Он сам и есть соус.</p>
+      <p>Фермеры говорят о том же с другой стороны. Овощ, который созревал без спешки и без искусственного света, несёт в себе вкус места. Именно за этим вкусом сегодня охотятся гурманы.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap kitchen" id="kitchen">
+  <div class="head"><h2>Тарелка недели</h2><p>Запечённая капуста с лимоном, пармезаном и зелёным маслом. Четыре порции, сорок минут.</p></div>
+  <div class="kgrid">
+    <ul class="ing">
+      <li>Капуста белокочанная <span>1 кочан</span></li>
+      <li>Пармезан <span>60 г</span></li>
+      <li>Петрушка <span>1 пучок</span></li>
+      <li>Оливковое масло <span>3 ст. л.</span></li>
+      <li>Лимон <span>1 штука</span></li>
+      <li>Тимьян <span>несколько веточек</span></li>
+    </ul>
+    <ol class="steps">
+      <li><span>Нарежьте кочан толстыми стейками, выложите с тимьяном на противень и запекайте при 200 градусах до золотых краёв.</span></li>
+      <li><span>Измельчите петрушку с маслом и соком лимона до зелёной пасты.</span></li>
+      <li><span>Выложите стейки на тёплую тарелку, сверху зелёное масло и стружка пармезана.</span></li>
+      <li><span>Подавайте сразу, пока капуста хрустит.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sub" id="sub">
+  <div class="wrap">
+    <h2>Приходите за каждым выпуском</h2>
+    <p>Раз в сезон мы присылаем новый номер: репортажи с ферм, рецепты шефов и список того, что покупать прямо сейчас.</p>
+    <div class="row"><input id="em" type="email" placeholder="Ваша почта" aria-label="Ваша почта"><button id="go" type="button">Подписаться</button></div>
+    <div id="ok" aria-live="polite"></div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap"><b>VEGE</b><span>© 2026 VEGE. Журнал об овощах, фермерах и поварах.</span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
